@@ -1,0 +1,16 @@
+{
+  "name": "nodejspractise",
+  "version": "1.0.0",
+  "description": "satish reddy nodejs ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "satish reddy",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
