@@ -5,6 +5,9 @@ const app = express();
 app.get("/", (req, res) => {
   res.send("satish reddy become a fullstack deveoper");
 });
+app.get("/register", (req, res) => {
+  res.send("register is successfully...");
+});
 app.get("/login", (req, res) => {
   res.json({ username: "satish", password: "satish reddy" });
 });
