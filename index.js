@@ -8,6 +8,9 @@ app.get("/", (req, res) => {
 app.get("/register", (req, res) => {
   res.send("register is successfully...");
 });
+app.get("/forgot", (req, res) => {
+  res.send("password successfully change...");
+});
 app.get("/login", (req, res) => {
   res.json({ username: "satish", password: "satish reddy" });
 });
